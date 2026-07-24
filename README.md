@@ -1,49 +1,85 @@
-# Energy Consumption Analyzer
+# ⚡ Energy Consumption Analyzer
 
-A Python project that analyzes daily energy consumption data from a CSV file.
+A Python application that analyzes daily electricity consumption using **Pandas** and **Matplotlib**.
 
-## Features
+---
 
-- Reads energy consumption data from a CSV file
-- Calculates total, average, minimum and maximum consumption
-- Finds the date with the highest consumption
-- Calculates total electricity cost
-- Detects days with high consumption
-- Creates and saves a consumption chart
+## 📷 Chart Preview
 
-## Technologies
+![Energy Consumption Chart](images/energy_consumption_chart.png)
 
-- Python
+---
+
+## ✨ Features
+
+- 📂 Reads energy data from a CSV file
+- 📊 Calculates:
+  - Total consumption
+  - Average consumption
+  - Maximum consumption
+  - Minimum consumption
+- 📅 Finds the day with the highest energy usage
+- 💰 Calculates electricity cost
+- ⚠️ Detects high-consumption days
+- 📈 Generates and saves a line chart
+
+---
+
+## 🛠 Technologies
+
+- Python 3
 - Pandas
 - Matplotlib
+- Git
+- GitHub
 
-## Files
+---
 
-- main.py
-- energy_data.csv
-- energy_consumption_chart.png
-- requirements.txt
+## 📁 Project Structure
 
-## How to Run
+```text
+energy-consumption-analyzer/
+│
+├── images/
+│   └── energy_consumption_chart.png
+│
+├── energy_data.csv
+├── main.py
+├── README.md
+└── requirements.txt
+```
 
-Install the required libraries:
+---
+
+## 🚀 Installation
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the program:
+Run:
 
 ```bash
 python main.py
 ```
 
-When the program asks for the electricity price, enter a value like:
+---
 
+## 📊 Example Output
+
+```text
+----- STATISTICS -----
+
+Total Consumption: 102.00 kWh
+Average Consumption: 14.57 kWh
+Maximum Consumption: 18.20 kWh
+Minimum Consumption: 11.80 kWh
+
+Total Cost: 18.36 €
 ```
-0.18
-```
 
-## Author
+---
 
-Giorgos Gkontevas
+## 👨‍💻 Author
+
+**Giorgos Gkontevas**
