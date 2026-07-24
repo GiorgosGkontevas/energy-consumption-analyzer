@@ -81,7 +81,7 @@ def plot_graph(data):
     plt.grid(True)
 
     plt.tight_layout()
-    plt.savefig("energy_consumption_chart.png")
+    plt.savefig("images/energy_consumption_chart.png")
 
     plt.show()
 
